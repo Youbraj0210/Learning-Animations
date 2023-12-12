@@ -66,3 +66,29 @@ html,body{
     scale: 0;
     z-index: 2;
 }
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 1vw;
+
+}
+
+#page2 .elem{
+    height: 100%;
+    width: 31%;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+#page2 .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
