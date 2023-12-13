@@ -35,7 +35,7 @@ locoScrollTriggrer()
 
 function navAnimation(){
     gsap.to("#nav-part1 svg",{
-        transform: "translateY(-150%)",
+        transform: "translateY(-100%)",
         scrollTrigger:{
             trigger:"#page1",
             scroller:"#main",
